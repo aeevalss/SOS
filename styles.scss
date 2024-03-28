@@ -1406,3 +1406,30 @@ label {
       margin-bottom: 10px;
    }
 }
+
+// ATTACHMENT on mobiles
+@media screen and (max-width: 460px) {
+   .head {
+      background-attachment: unset;
+   }
+
+   .head__main {
+      margin-top: 90px;
+   }
+
+   .main__skip {
+      margin-top: 210px;
+   }
+
+   .what {
+      background-attachment: unset;
+   }
+
+   .special {
+      background-attachment: unset;
+   }
+
+   .system {
+      background-attachment: unset;
+   }
+}
