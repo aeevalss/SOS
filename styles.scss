@@ -109,8 +109,6 @@ body {
    &__list>li:not(:last-child) {
       padding-right: 40px;
    }
-
-   &__right {}
 }
 
 @media (hover:hover) {
@@ -650,12 +648,6 @@ hr {
    &__col:not(:first-child) {
       margin-top: 30px;
    }
-
-   &__1 {}
-
-   &__2 {}
-
-   &__3 {}
 }
 
 .col {
@@ -761,8 +753,6 @@ hr {
    background-attachment: fixed;
    background-size: cover;
 
-   &__name {}
-
    &__title {
       text-align: center;
       padding-top: 9px;
@@ -826,8 +816,6 @@ hr {
       width: 50%;
 
    }
-
-   &__third-row {}
 
    &__graphics {
       padding: 14.8px 20px 24px 18px;
@@ -908,10 +896,6 @@ hr {
    background-repeat: no-repeat;
    background-attachment: fixed;
    background-size: cover;
-
-   &__info {}
-
-   &__pretitle {}
 
    &__title {
       padding-top: 5px;
@@ -1132,18 +1116,10 @@ hr {
       max-height: 100%;
    }
 
-   &__title-pretitle {}
-
-   &__title {}
-
-   &__pre-title {}
-
    &__text {
       max-width: 644.96px;
       margin: 45px 0px 70px 0px;
    }
-
-   &__form {}
 }
 
 .form-btn {

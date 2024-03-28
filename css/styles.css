@@ -100,6 +100,7 @@ body {
 .menu__list > li:not(:last-child) {
   padding-right: 40px;
 }
+
 @media (hover: hover) {
   .menu__list > li > a:hover {
     color: rgb(255, 181, 72);
@@ -579,6 +580,7 @@ hr {
 .toggle__col:not(:first-child) {
   margin-top: 30px;
 }
+
 .col__circle {
   border: 2px solid white;
   border-radius: 50%;
@@ -964,6 +966,7 @@ hr {
   max-width: 644.96px;
   margin: 45px 0px 70px 0px;
 }
+
 .form-btn {
   margin-left: 20px;
   padding: 28px 34px;
