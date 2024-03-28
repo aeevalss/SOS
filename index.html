@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <!-- Подключение иконки на вкладке сайта -->
+   <link rel='icon' href='./img/logo.svg' type='image/x-icon'>
+   <!-- Подключение слайдера -->
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+   <!-- Подключение шрифтов -->
+   <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet">
+   <!-- Подключение css-стилей -->
+   <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+   <link rel="stylesheet" href="./css/styles.css">
+   <title>Survive at all costs</title>
+</head>
+
+<body>
+   <section id="main" class="head">
+      <div class="head__menu">
+         <div class="menu-container">
+            <a href="#main">
+               <div class="menu__logo"><img src="./img/logo.svg" alt="logo"></div>
+            </a>
+            <ul class="menu__list">
+               <li><a href="#main">главная</a></li>
+               <li><a href="#what">об игре</a></li>
+               <li><a href="#special">особенности</a></li>
+               <li><a href="#system">системные требования</a></li>
+               <li><a href="#quotes">отзывы</a></li>
+            </ul>
+            <div class="menu__right">
+               <i class='bx bxl-steam'></i>
+               <i class='bx bxl-play-store'></i>
+            </div>
+            <div class="burger">
+               <div class="burger__main"></div>
+            </div>
+         </div>
+      </div>
+      <div class="head__main">
+         <h1 class="main__title -title">SURVIVE AT ALL COSTS</h1>
+         <h5 class="main__text -pretitle">Experience new social battle royale game</h5>
+         <button class="main__btn" type="button">
+            <span class="btn-text">Buy now on Steam </span>
+            <hr>
+            <span class="btn-text">$14.99</span>
+         </button>
+         <div class="main__skip"><a class="next" href="#what">Next<br> <i class='bx bx-arrow-to-bottom'></i></a></div>
+      </div>
+
+   </section>
+   <div id="what" class="what">
+      <div class="what-container">
+         <div class="what__left">
+            <div class="what__info">
+               <h5 class="what-pre-title">What is SOS?</h5>
+               <h1 class="what-title">social battle royale game</h1>
+               <p class="what-text">Each round, you and 15 other contestants compete to escape a deadly island filled
+                  with monsters.The
+                  trick is: three people can survive.Will you run solo or form friendships with others to escape?
+                  Making the right decisions could be the difference between life and death.</p>
+            </div>
+         </div>
+         <div class="what__right"><!-- Slider main container -->
+            <div class="swiper">
+               <!-- Additional required wrapper -->
+               <div class="swiper-wrapper">
+                  <!-- Slides -->
+                  <div class="swiper-slide"><img src="./img/screenshot 1.png" alt="">
+                  </div>
+                  <div class="swiper-slide"><img src="./img/screenshot 2.png" alt="">
+                  </div>
+                  <div class="swiper-slide"><img src="./img/screenshot 3.png" alt="">
+                  </div>
+               </div>
+               <!-- If we need pagination -->
+               <div class="swiper-pagination"></div>
+
+            </div>
+         </div>
+      </div>
+   </div>
+   <div id="special" class="special">
+      <div class="special-container">
+         <h5 class="special__pre-title">What’s so special?</h5>
+         <h1 class="special__title">Features</h1>
+         <div class="special__toggle">
+            <div class="toggle__col toggle__1">
+               <div class="circle-title">
+                  <div class="col__circle"></div>
+                  <div class="col__title">SURVIVE AT ALL COSTS</div>
+               </div>
+               <div class="col__text">You have 30 minutes to find a relic, signal for extraction, and grab one of three
+                  spots on the rescue chopper.</div>
+            </div>
+            <div class="toggle__col toggle__2">
+               <div class="circle-title">
+                  <div class="col__circle"></div>
+                  <div class="col__title">CREATE ALLIES AND ENEMIES</div>
+               </div>
+               <div class="col__text">You have 30 minutes to find a relic, signal for extraction, and grab one of three
+                  spots on the rescue chopper.</div>
+            </div>
+            <div class="toggle__col toggle__3">
+               <div class="circle-title">
+                  <div class="col__circle"></div>
+                  <div class="col__title">IMPRESS THE AUDIENCE</div>
+               </div>
+               <div class="col__text">You have 30 minutes to find a relic, signal for extraction, and grab one of three
+                  spots on the rescue chopper.</div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div id="system" class="system">
+      <div class="system-container">
+         <div class="system__name">
+            <h5 class="system__pre-title -pretitle">Can My Computer Run this game?</h5>
+            <h1 class="system__title -title">system requirements</h1>
+         </div>
+         <div class="system__req">
+            <div class="req__first-row">
+               <div class="req__os">
+                  <div class="os__title req-title">os:</div>
+                  <div class="os__info req-info">Windows 7 64-bit only <br>
+                     (No OSX support at this time)
+                  </div>
+               </div>
+               <div class="req__processor">
+                  <div class="processor__title req-title">processor:</div>
+                  <div class="processor__info req-info">Intel Core 2 Duo @ 2.4 GHZ or AMD Athlon X2 @ 2.8 GHZ
+                  </div>
+               </div>
+            </div>
+            <div class="req__second-row">
+               <div class="req__memory">
+                  <div class="memory__title req-title">memory:</div>
+                  <div class="memory__info req-info">8 GB RAM</div>
+               </div>
+               <div class="req__storage">
+                  <div class="storage__title req-title">storage:</div>
+                  <div class="storage__info req-info">8 GB available space</div>
+               </div>
+            </div>
+            <div class="req__third-row">
+               <div class="req__graphics">
+                  <div class="graphics__title req-title">graphics:</div>
+                  <div class="graphics__info req-info">NVIDIA GeForce GTX 660 2GB or <br>
+                     AMD Radeon HD 7850 2GB DirectX11 (Shader Model 5)
+
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div id="quotes" class="quotes">
+      <div class="quotes-container">
+         <div class="quotes-left">
+            <div class="quotes__info">
+               <h5 class="quotes__pretitle -pretitle">What people think?</h5>
+               <h1 class="quotes__title -title">Press quotes</h1>
+               <p class="quotes__text">Our goal is to create a product and service that you’re satisfied with and use
+                  it
+                  every day. This is why we’re constantly working on our services to make it better every day and
+                  really
+                  listen to what our users has to say.</p>
+            </div>
+            <button class="quotes__btn"><span>Read more testimonials</span></button>
+         </div>
+         <div class="quotes-right">
+            <div class="quotes__people-container">
+               <div class="people__review review1">
+                  <div class="review-container">
+                     <div class="review__data">
+                        <div class="data__img">
+                           <img src="./img/photo1.png" alt="photo">
+                        </div>
+                        <div class="data__person">
+                           <div class="person__name">Evan Lahti</div>
+                           <div class="person__position">PC Gamer</div>
+                        </div>
+                        <div class="data__twitter">
+                           <img src="./img/twitter.svg" alt="twitter">
+                        </div>
+                     </div>
+                     <div class="review__bottom">
+                        <p class="review__text">“One of my gaming highlights of the year.”</p>
+                        <div class="review__month">October 18, 2018</div>
+                     </div>
+                  </div>
+               </div>
+               <div class="people__review review2">
+                  <div class="review-container">
+                     <div class="review__data">
+                        <div class="data__img">
+                           <img src="./img/photo2.png" alt="photo">
+                        </div>
+                        <div class="data__person">
+                           <div class="person__name">Jada Griffin</div>
+                           <div class="person__position">Nerdreactor</div>
+                        </div>
+                        <div class="data__twitter">
+                           <img src="./img/twitter.svg" alt="twitter">
+                        </div>
+                     </div>
+                     <div class="review__bottom">
+                        <p class="review__text">“The next big thing in the world of streaming and survival games.”</p>
+                        <div class="review__month">December 21, 2018</div>
+                     </div>
+                  </div>
+               </div>
+               <div class="people__review review3">
+                  <div class="review-container">
+                     <div class="review__data">
+                        <div class="data__img">
+                           <img src="./img/photo3.png" alt="photo">
+                        </div>
+                        <div class="data__person">
+                           <div class="person__name">Aaron Williams</div>
+                           <div class="person__position">Uproxx</div>
+                        </div>
+                        <div class="data__twitter">
+                           <img src="./img/twitter.svg" alt="twitter">
+                        </div>
+                     </div>
+                     <div class="review__bottom">
+                        <p class="review__text">“Snoop Dogg Playing The Wildly Entertaining ‘SOS’ Is Ridiculous.”</p>
+                        <div class="review__month">December 24, 2018</div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div class="want">
+      <div class="want-container">
+         <div class="want__img"><img src="./img/image.png" alt="totem"></div>
+         <div class="want-right">
+            <div class="want__title-pretitle">
+               <div class="want__pre-title -pretitle">Want to stay in touch?</div>
+               <div class="want__title -title">NEWSLETTER SUBSCRIBE</div>
+            </div>
+            <div class="want__text">In order to start receiving our news, all you have to do is enter your email
+               address. Everything else will be taken care of by us. We will send you emails containing information
+               about game. We don’t spam.</div>
+            <div class="want__form">
+               <form action="#" method="post">
+                  <label for="post-email">Your email address<input id="post-email" required type="email"
+                        placeholder="myemail@mail.com"></label>
+                  <button class="form-btn" type=" submit"><span>Subscribe now</span></button>
+               </form>
+            </div>
+         </div>
+      </div>
+   </div>
+   <footer class="footer">
+      <div class="footer-container">
+         <div class="footer__top">
+            <div class="footer__logo"><img src="./img/logo.svg" alt="logotype"></div>
+            <ul class="footer__links">
+               <li><a href="#main">ГЛАВНАЯ</a></li>
+               <li><a href="#what">ОБ ИГРЕ</a></li>
+               <li><a href="#special">ОСОБЕННОСТИ</a></li>
+               <li><a href="#system">СИСТЕМНЫЕ ТРЕБОВАНИЯ</a></li>
+               <li><a href="#quotes">ОТЗЫВЫ</a></li>
+            </ul>
+            <div class="footer__social">
+               <i class='bx bxl-facebook footer-bx'></i>
+               <i class='bx bxl-twitter footer-bx'></i>
+               <i class='bx bxl-youtube footer-bx'></i>
+               <i class='bx bxl-twitch footer-bx'></i>
+            </div>
+         </div>
+         <div class="footer__bottom">
+            <p class="footer__rights">© 2018 Outpost Games, Inc. All Rights Reserved</p>
+            <div class="footer__privacy"><span>PRIVACY POLICY</span>
+               <span>| TERMS OF SERVICES |</span>
+               <span>CODE OF CONDUCT</span>
+            </div>
+         </div>
+      </div>
+   </footer>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+   <script type="text/javascript" src="./script.js"></script>
+</body>
+
+</html>
