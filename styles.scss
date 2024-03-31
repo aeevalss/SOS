@@ -1407,19 +1407,9 @@ label {
    }
 }
 
-// ATTACHMENT on mobiles
-@media screen and (max-width: 460px) {
+@media screen and (max-width: 640px) {
    .head {
       background-attachment: unset;
-   }
-
-   .head__main {
-      padding-top: 180px;
-      margin-top: 0px;
-   }
-
-   .main__skip {
-      margin-top: 210px;
    }
 
    .what {
@@ -1432,5 +1422,18 @@ label {
 
    .system {
       background-attachment: unset;
+   }
+}
+
+// ATTACHMENT on mobiles
+@media screen and (max-width: 460px) {
+
+   .head__main {
+      padding-top: 180px;
+      margin-top: 0px;
+   }
+
+   .main__skip {
+      margin-top: 210px;
    }
 }

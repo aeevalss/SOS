@@ -1216,16 +1216,9 @@ label {
     margin-bottom: 10px;
   }
 }
-@media screen and (max-width: 460px) {
+@media screen and (max-width: 640px) {
   .head {
     background-attachment: unset;
-  }
-  .head__main {
-    padding-top: 180px;
-    margin-top: 0px;
-  }
-  .main__skip {
-    margin-top: 210px;
   }
   .what {
     background-attachment: unset;
@@ -1235,5 +1228,14 @@ label {
   }
   .system {
     background-attachment: unset;
+  }
+}
+@media screen and (max-width: 460px) {
+  .head__main {
+    padding-top: 180px;
+    margin-top: 0px;
+  }
+  .main__skip {
+    margin-top: 210px;
   }
 }/*# sourceMappingURL=styles.css.map */
